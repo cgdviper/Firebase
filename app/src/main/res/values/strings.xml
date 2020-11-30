@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Firebase</string>
+    <string name="modificacion_de_datos">Modificacion de datos</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="consulta_run">Consulta Run</string>
+    <string name="ingreso">Ingreso</string>
+    <string name="numero">Numero</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="run">Run (Sin puntos, con guion)</string>
+    <string name="nombre_y_apellidos">Nombre y Apellidos</string>
+    <string name="nodo_Persona">Persona</string>
+</resources>

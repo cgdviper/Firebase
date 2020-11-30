@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="LabelFor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="@string/run" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtRu"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:inputType="text"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtRu"
+        android:layout_alignParentStart="true"
+        android:text="@string/nombre_y_apellidos" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNo"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:inputType="text"
+        android:layout_alignEnd="@+id/txtRu"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNo"
+        android:layout_alignParentStart="true"
+        android:text="@string/ciudad" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCi"
+        android:layout_below="@+id/textView4"
+        android:layout_alignEnd="@+id/txtNo"
+        android:inputType="text"
+        android:layout_alignParentStart="true"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCi"
+        android:layout_alignParentStart="true"
+        android:text="@string/numero" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNu"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/txtCi"
+        android:inputType="text"
+        android:layout_alignParentEnd="false"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/button_ING"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNu"
+        android:layout_alignParentStart="true"
+        android:text="@string/ingreso" />
+
+    <Button
+        android:id="@+id/button_Cons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_ING"
+        android:layout_toEndOf="@+id/button_ING"
+        android:text="@string/consulta_run" />
+
+    <Button
+        android:id="@+id/button_ELIM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_Cons"
+        android:layout_toEndOf="@+id/button_Cons"
+        android:text="@string/eliminar" />
+
+    <Button
+        android:id="@+id/button_UPD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_ING"
+        android:layout_marginTop="55dp"
+        android:layout_toEndOf="@+id/button_ING"
+        android:text="@string/modificacion_de_datos" />
+
+</RelativeLayout>
